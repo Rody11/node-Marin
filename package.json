@@ -1,7 +1,7 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto autenticazión",
   "main": "index.js",
   "scripts": {
     "build":"babel src --out-dir build",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Rody11/node-Marin.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rody Marin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rody11/node-Marin/issues"
