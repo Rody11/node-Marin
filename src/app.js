@@ -6,7 +6,7 @@ import productsRoutes from './routes/products.routes'
 const app = express()
 
 app.set('pkg', pkg);
-
+app.use(express.json());
 app.use(morgan('dev'));
 
 app.get('/', (req, res) =>{
@@ -18,6 +18,6 @@ app.get('/', (req, res) =>{
     })
 })
 
-app.use('/productos', productsRoutes)
+app.use('/products', productsRoutes)
 
 export default app;
