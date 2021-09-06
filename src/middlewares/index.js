@@ -1,3 +1,4 @@
-import {verifyToken} from './authJwl'
+import * as authJwl from './authJwl'
+import * as verifySignup from './verifySignup'
 
-export { verifyToken }
+export { authJwl, verifySignup }
